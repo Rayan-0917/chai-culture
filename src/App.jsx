@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import teaBg from './assets/tea.jpg';
 import { Instagram, Twitter, Facebook, Mail, Leaf } from 'lucide-react';
 
 const App = () => {
@@ -19,7 +20,7 @@ const App = () => {
         className="absolute inset-0 scale-110 bg-center bg-cover brightness-90"
         style={{
           backgroundImage:
-            "url('https://img.jagranjosh.com/images/2025/10/13/article/image/tea-producing-states-1760360681335.webp')",
+            `url(${teaBg})`,
         }}
       />
 
